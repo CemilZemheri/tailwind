@@ -1,22 +1,19 @@
+import Typograpy from "./components/Typograpy";
+import SpacingAndSizing from "./components/SpacingAndSizing";
+import HoverAndFocus from "./components/HoverAndFocus";
+import FlexAndResponsive from "./components/FlexAndResponsive";
+import Navbar from "./components/Navbar";
 
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1 className="text-center text-2xl text-purple-700">hello tailwind</h1>
+      <Typograpy />
+      <SpacingAndSizing />
+      <HoverAndFocus />
+      <FlexAndResponsive />
+      <Navbar />
     </div>
   );
 }
